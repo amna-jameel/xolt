@@ -2,13 +2,65 @@
 
 import React, { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { Link } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 import { authRoutes, marketingRoutes } from "@/lib/routes";
 import { LanguageSwitcher } from "@/components/marketing/LanguageSwitcher";
 
 export function Navbar() {
   const t = useTranslations("nav");
+  const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState<string>("");
+
+  const navItems = [
+    { href: marketingRoutes.home, label: t("home"), key: "home", sectionId: "" },
+    { href: marketingRoutes.howItWorks, label: t("howItWorks"), key: "howItWorks", sectionId: "how-it-works" },
+    { href: marketingRoutes.features, label: t("features"), key: "features", sectionId: "features" },
+    { href: marketingRoutes.pricing, label: t("pricing"), key: "pricing", sectionId: "pricing" },
+    { href: marketingRoutes.security, label: t("security"), key: "security", sectionId: "security" },
+  ];
+
+  // Route & Section scroll tracking logic
+  useEffect(() => {
+    // If not home page, lock active section to current route
+    if (pathname !== "/" && pathname !== "") {
+      const matched = navItems.find(
+        (item) => item.href !== "/" && (pathname === item.href || pathname.startsWith(item.href))
+      );
+      if (matched) {
+        setActiveSection(matched.key);
+      } else {
+        setActiveSection("");
+      }
+      return;
+    }
+
+    // On home page, detect visible section on scroll
+    const sectionIds = navItems.filter((i) => i.sectionId).map((i) => ({ key: i.key, id: i.sectionId }));
+
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY + 160; // offset for sticky header
+      let currentSection = "home";
+
+      for (const section of sectionIds) {
+        const el = document.getElementById(section.id);
+        if (el) {
+          const top = el.offsetTop;
+          const height = el.offsetHeight;
+          if (scrollPosition >= top && scrollPosition < top + height) {
+            currentSection = section.key;
+            break;
+          }
+        }
+      }
+
+      setActiveSection(currentSection);
+    };
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [pathname]);
 
   // Lock body scroll when mobile menu is open & handle Escape key
   useEffect(() => {
@@ -45,36 +97,23 @@ export function Navbar() {
 
           {/* Center Navigation (Desktop only: 1024px+) */}
           <nav className="hidden lg:flex items-center gap-6 text-sm font-medium text-[#A9B5C3]">
-            <Link
-              href={marketingRoutes.home}
-              className="hover:text-[#4F8CC9] transition-colors focus-visible:ring-2 focus-visible:ring-[#4F8CC9] focus-visible:outline-none rounded px-1"
-            >
-              {t("home")}
-            </Link>
-            <Link
-              href={marketingRoutes.howItWorks}
-              className="hover:text-[#4F8CC9] transition-colors focus-visible:ring-2 focus-visible:ring-[#4F8CC9] focus-visible:outline-none rounded px-1"
-            >
-              {t("howItWorks")}
-            </Link>
-            <Link
-              href={marketingRoutes.features}
-              className="hover:text-[#4F8CC9] transition-colors focus-visible:ring-2 focus-visible:ring-[#4F8CC9] focus-visible:outline-none rounded px-1"
-            >
-              {t("features")}
-            </Link>
-            <Link
-              href={marketingRoutes.pricing}
-              className="hover:text-[#4F8CC9] transition-colors focus-visible:ring-2 focus-visible:ring-[#4F8CC9] focus-visible:outline-none rounded px-1"
-            >
-              {t("pricing")}
-            </Link>
-            <Link
-              href={marketingRoutes.security}
-              className="hover:text-[#4F8CC9] transition-colors focus-visible:ring-2 focus-visible:ring-[#4F8CC9] focus-visible:outline-none rounded px-1"
-            >
-              {t("security")}
-            </Link>
+            {navItems.map((item) => {
+              const isActive = activeSection === item.key;
+              return (
+                <Link
+                  key={item.key}
+                  href={item.href}
+                  onClick={() => setActiveSection(item.key)}
+                  className={`transition-colors focus-visible:ring-2 focus-visible:ring-[#4F8CC9] focus-visible:outline-none rounded px-1 ${
+                    isActive
+                      ? "text-[#F4F7FA] underline decoration-[#4F8CC9] decoration-2 underline-offset-8"
+                      : "hover:text-[#4F8CC9]"
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              );
+            })}
           </nav>
         </div>
 
@@ -119,41 +158,26 @@ export function Navbar() {
       {/* Mobile & Tablet Menu Dropdown Overlay (<1024px) */}
       {mobileMenuOpen && (
         <div className="lg:hidden w-full border-b border-[#203147] bg-[#07111F] px-4 sm:px-6 pt-3 pb-6 space-y-2.5 animate-rise shadow-2xl max-h-[calc(100vh-4rem)] overflow-y-auto">
-          <Link
-            href={marketingRoutes.home}
-            onClick={() => setMobileMenuOpen(false)}
-            className="block text-base font-medium text-[#F4F7FA] py-2 border-b border-[#203147]/50"
-          >
-            {t("home")}
-          </Link>
-          <Link
-            href={marketingRoutes.howItWorks}
-            onClick={() => setMobileMenuOpen(false)}
-            className="block text-base font-medium text-[#F4F7FA] py-2 border-b border-[#203147]/50"
-          >
-            {t("howItWorks")}
-          </Link>
-          <Link
-            href={marketingRoutes.features}
-            onClick={() => setMobileMenuOpen(false)}
-            className="block text-base font-medium text-[#F4F7FA] py-2 border-b border-[#203147]/50"
-          >
-            {t("features")}
-          </Link>
-          <Link
-            href={marketingRoutes.pricing}
-            onClick={() => setMobileMenuOpen(false)}
-            className="block text-base font-medium text-[#F4F7FA] py-2 border-b border-[#203147]/50"
-          >
-            {t("pricing")}
-          </Link>
-          <Link
-            href={marketingRoutes.security}
-            onClick={() => setMobileMenuOpen(false)}
-            className="block text-base font-medium text-[#F4F7FA] py-2 border-b border-[#203147]/50"
-          >
-            {t("security")}
-          </Link>
+          {navItems.map((item) => {
+            const isActive = activeSection === item.key;
+            return (
+              <Link
+                key={item.key}
+                href={item.href}
+                onClick={() => {
+                  setActiveSection(item.key);
+                  setMobileMenuOpen(false);
+                }}
+                className={`block text-base font-medium py-2 border-b border-[#203147]/50 ${
+                  isActive
+                    ? "text-[#F4F7FA] underline decoration-[#4F8CC9] decoration-2 underline-offset-4"
+                    : "text-[#F4F7FA]/80 hover:text-[#F4F7FA]"
+                }`}
+              >
+                {item.label}
+              </Link>
+            );
+          })}
           <div className="pt-2 flex flex-row gap-2 sm:gap-3">
             <Link
               href={authRoutes.signIn}
@@ -175,3 +199,4 @@ export function Navbar() {
     </header>
   );
 }
+
