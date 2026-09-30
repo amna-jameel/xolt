@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "siteName": "XOLT",
+    "company": "Authect",
+    "homeTitle": "XOLT — beneficio por SKU y un plan de acción mensual",
+    "homeDescription": "XOLT ayuda a vendedores y agencias de Amazon en MENA, Europa y América a ver el beneficio real por SKU y a recibir un plan mensual de qué cambiar — en inglés, español o árabe.",
+    "featuresTitle": "Funciones — XOLT",
+    "featuresDescription": "Conecta Seller Central, calcula el beneficio por SKU, vigila el inventario y recibe un plan de acción mensual con impacto económico.",
+    "howTitle": "Cómo funciona XOLT",
+    "howDescription": "Conecta Amazon con SP-API oficial, importa el historial, ve la economía por SKU y exporta el plan mensual a Sheets, Excel o CSV.",
+    "pricingTitle": "Precios — XOLT",
+    "pricingDescription": "Planes Starter, Pro y Agency. Prueba de 14 días, sin tarjeta.",
+    "securityTitle": "Seguridad — XOLT",
+    "securityDescription": "Solo APIs oficiales de Amazon, sin PII de compradores, tokens cifrados, hosting en Fráncfort y lista pública de subprocesadores.",
+    "subTitle": "Subprocesadores — XOLT",
+    "subDescription": "Lista actual de proveedores que procesan datos para el servicio XOLT.",
+    "privacyTitle": "Privacidad — XOLT",
+    "privacyDescription": "Política de privacidad pendiente de revisión legal.",
+    "termsTitle": "Términos — XOLT",
+    "termsDescription": "Términos del servicio pendientes de revisión legal.",
+    "cookiesTitle": "Cookies — XOLT",
+    "cookiesDescription": "Política de cookies pendiente de revisión legal.",
+    "contactTitle": "Contacto — XOLT",
+    "contactDescription": "Authect, Dubái, EAU. Soporte, privacidad, seguridad y facturación.",
+    "agenciesTitle": "XOLT para agencias",
+    "agenciesDescription": "Espacios de trabajo por cliente y packs mensuales listos para entregar.",
+    "faqTitle": "Preguntas frecuentes — XOLT",
+    "faqDescription": "Acceso a datos, PII, prueba, idiomas y límites de la v1.",
+    "marketsTitle": "Mercados — XOLT",
+    "marketsDescription": "Para vendedores de Amazon en EAU, Arabia Saudí, Egipto, España, la UE y EE. UU.",
+    "signInTitle": "Iniciar sesión — XOLT",
+    "signUpTitle": "Empezar prueba gratis — XOLT",
+    "ogAlt": "Vista previa de XOLT con rentabilidad por SKU"
+  },
+  "nav": {
+    "home": "Inicio",
+    "features": "Funciones",
+    "howItWorks": "Cómo funciona",
+    "pricing": "Precios",
+    "security": "Seguridad",
+    "faq": "FAQ",
+    "resources": "Recursos",
+    "agencies": "Para agencias",
+    "markets": "Mercados",
+    "signIn": "Iniciar sesión",
+    "startTrial": "Empezar prueba gratis",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú",
+    "language": "Idioma"
+  },
+  "footer": {
+    "tagline": "Beneficio por SKU y un plan mensual para vendedores y agencias de Amazon.",
+    "product": "Producto",
+    "company": "Empresa",
+    "resources": "Recursos",
+    "legal": "Legal",
+    "contact": "Contacto",
+    "privacy": "Privacidad",
+    "terms": "Términos",
+    "cookies": "Cookies",
+    "subProcessors": "Subprocesadores",
+    "language": "Idioma",
+    "copyright": "© {year} Authect. XOLT es un producto de Authect, Dubái, EAU."
+  },
+  "common": {
+    "startTrial": "Empezar prueba gratis",
+    "connectAmazon": "Conectar Amazon",
+    "seePricing": "Ver precios",
+    "seeHowItWorks": "Ver cómo funciona",
+    "seeSecurity": "Página de seguridad",
+    "seePrivacy": "Privacidad",
+    "demoOnly": "Cifras de demostración. No son datos reales de Amazon.",
+    "beta": "Acceso anticipado",
+    "usd": "USD",
+    "aed": "AED",
+    "eur": "EUR",
+    "perMonth": "/mes",
+    "backToHome": "Volver al inicio"
+  },
+  "hero": {
+    "eyebrow": "XOLT · analítica para vendedores de Amazon",
+    "headline": "Ve el beneficio real por SKU. Sabe qué cambiar después.",
+    "support": "Un informe mensual de beneficio y acciones para vendedores y agencias de Amazon en MENA, Europa y América — en tu idioma, con impacto económico, en tu hoja de cálculo.",
+    "primary": "Empezar prueba gratis",
+    "secondary": "Ver cómo funciona",
+    "trialNote": "Prueba gratuita de 14 días",
+    "noCard": "Sin tarjeta de crédito",
+    "readOnlyApi": "SP-API solo lectura"
+  },
+  "trust": {
+    "spApi": "Amazon SP-API oficial",
+    "noScraping": "Sin scraping",
+    "noPii": "Sin PII de compradores",
+    "languages": "Inglés, español, árabe",
+    "currencies": "AED, SAR, EGP, EUR, GBP, USD",
+    "security": "Página pública de seguridad"
+  },
+  "problem": {
+    "eyebrow": "El problema",
+    "title": "Tienes los datos. No tienes al analista.",
+    "body": "Seller Central muestra ingresos. Tasas, COGS, anuncios (más adelante) e inventario viven en otros sitios. Cuando reconcilias un SKU, el mes ya acabó — y la siguiente decisión sigue siendo una suposición.",
+    "clickInstruction": "Pasa el cursor o haz clic en un problema para ver su impacto económico oculto:",
+    "points": {
+      "revenue": "Ingresos no son beneficio. Tasas y coste landed cambian el ranking de cada SKU.",
+      "inventory": "El exceso de stock y el riesgo de rotura se esconden en las unidades hasta que el efectivo ya está atrapado.",
+      "language": "Agencias y operadores en MENA necesitan el mismo informe en árabe, español o inglés."
+    },
+    "impacts": {
+      "revenue": "Impacto oculto: -$4.800/mes de margen no capturado en el producto estrella debido a errores en tasas.",
+      "inventory": "Impacto oculto: $18.500 en efectivo congelado por exceso de inventario de 45 días.",
+      "language": "Impacto oculto: Más de 12 horas/mes perdidas traduciendo y reformateando informes para clientes."
+    }
+  },
+  "value": {
+    "eyebrow": "El resultado",
+    "title": "Entiende la rentabilidad real por SKU — y recibe un plan práctico.",
+    "body": "XOLT no es otro panel. Es un informe mensual que dice exactamente qué cambiar por producto, en tu idioma, y llega a Sheets, Excel o CSV.",
+    "forWhom": "Para operadores, equipos de marca y agencias que gestionan cuentas de Seller Central en AE, SA, EG, ES, la UE y EE. UU."
+  },
+  "comparison": {
+    "eyebrow": "Por qué XOLT es diferente",
+    "title": "Diseñado para actuar, no para ser otro panel ruidoso",
+    "subtitle": "La mayoría de herramientas de Amazon te abruman con gráficos o exigen analistas dedicados. XOLT entrega la respuesta final: qué cambiar y el impacto económico exacto.",
+    "colFeature": "Capacidad",
+    "colXolt": "XOLT",
+    "colTraditional": "Paneles tradicionales (Helium 10, KwickMetrics)",
+    "colDataPipelines": "Conectores de datos (Openbridge)",
+    "rows": {
+      "prescriptive": {
+        "title": "Plan de acción mensual prescriptivo por SKU",
+        "xolt": "Sí — pasos exactos con impacto en dólares/euros",
+        "traditional": "No — solo métricas y gráficos de vanidad",
+        "data": "No — solo tablas SQL en bruto"
+      },
+      "languages": {
+        "title": "Árabe (RTL), español e inglés nativos",
+        "xolt": "Sí — localización completa desde el primer día",
+        "traditional": "Solo inglés o traducción parcial",
+        "data": "Solo inglés"
+      },
+      "deliverables": {
+        "title": "Entrega automática en tu hoja de cálculo",
+        "xolt": "Sí — Google Sheets, Excel (.xlsx), CSV",
+        "traditional": "Cerrado dentro de su aplicación web",
+        "data": "Requiere configuración de BigQuery / Snowflake"
+      },
+      "security": {
+        "title": "Cero PII de compradores y SP-API de solo lectura",
+        "xolt": "Sí — tokens cifrados con KMS, hosting en la UE (Fráncfort)",
+        "traditional": "Varía / a menudo piden roles restringidos",
+        "data": "Almacenamiento de datos empresarial complejo"
+      },
+      "agency": {
+        "title": "Espacios de trabajo multicliente para agencias",
+        "xolt": "Sí — espacios de clientes y packs mensuales listos",
+        "traditional": "Complementos de pago por cuenta",
+        "data": "Desarrollos a medida"
+      }
+    }
+  },
+  "preview": {
+    "title": "Economía por SKU, como la verías en XOLT",
+    "sku": "SKU",
+    "product": "Producto",
+    "market": "Mercado",
+    "revenue": "Ingresos",
+    "fees": "Tasas de Amazon",
+    "cogs": "COGS",
+    "profit": "Beneficio",
+    "margin": "Margen",
+    "inventory": "Inventario",
+    "action": "Acción recomendada",
+    "impact": "Impacto est.",
+    "cover": "Días de cobertura"
+  },
+  "how": {
+    "eyebrow": "Cómo funciona",
+    "title": "De Seller Central a un plan mensual — sin escritura en Amazon.",
+    "subtitle": "Acceso de solo lectura con APIs oficiales. Primer valor en unos 15 minutos; unos 12 meses de historial después.",
+    "steps": {
+      "connect": {
+        "title": "Conecta Seller Central",
+        "body": "OAuth a Amazon SP-API. Sin contraseñas. Sin scraping."
+      },
+      "backfill": {
+        "title": "Importa el historial",
+        "body": "Importación segura de unos 12 meses. Los primeros números en unos 15 minutos."
+      },
+      "economics": {
+        "title": "Calcula la economía por SKU",
+        "body": "Ingresos, tasas de Amazon y tu propio COGS — para que el beneficio sea real."
+      },
+      "profit": {
+        "title": "Entiende la rentabilidad",
+        "body": "Qué SKUs ganan dinero después de tasas y coste, no solo cuáles venden."
+      },
+      "inventory": {
+        "title": "Detecta problemas de inventario",
+        "body": "Días de cobertura, riesgo de rotura y exceso de stock."
+      },
+      "plan": {
+        "title": "Recibe el plan mensual de IA",
+        "body": "Una lista prescriptiva de qué cambiar por artículo, con impacto económico."
+      },
+      "impact": {
+        "title": "Ve el impacto financiero",
+        "body": "Cada recomendación lleva un efecto mensual estimado."
+      },
+      "export": {
+        "title": "Exporta y comparte",
+        "body": "Google Sheets, Excel, CSV y envío por correo para operadores y clientes."
+      }
+    }
+  },
+  "features": {
+    "eyebrow": "Producto",
+    "title": "Las piezas del informe mensual",
+    "skuProfit": {
+      "title": "Beneficio por SKU",
+      "body": "Tasas, tu COGS e ingresos en una línea. Datos de Ads son un fast-follow, no en v1."
+    },
+    "inventory": {
+      "title": "Salud de inventario",
+      "body": "Días de cobertura más avisos de rotura y exceso, SKU a SKU."
+    },
+    "plan": {
+      "title": "Plan de acción mensual con IA",
+      "body": "Pasos siguientes con impacto económico por recomendación — no solo gráficos."
+    },
+    "money": {
+      "title": "Impacto económico",
+      "body": "Cada acción se expresa como efecto mensual estimado para priorizar."
+    },
+    "backfill": {
+      "title": "Historial (backfill)",
+      "body": "Unos 12 meses de historial para que el primer plan no se base en una semana."
+    },
+    "markets": {
+      "title": "Varios mercados",
+      "body": "Pensado para AE, SA, EG, ES y otras regiones de Seller Central en UE/EE. UU."
+    },
+    "languages": {
+      "title": "Idiomas",
+      "body": "Inglés, español y árabe (RTL) desde el primer día."
+    },
+    "currencies": {
+      "title": "Divisas",
+      "body": "AED, SAR, EGP, EUR, GBP y USD."
+    },
+    "exports": {
+      "title": "Exportación y correo",
+      "body": "Google Sheets, Excel, CSV y reporting por email del pack mensual."
+    },
+    "limitsTitle": "Límites honestos de la v1",
+    "limitsBody": "Sin escritura en listings, precios o pujas de Amazon. Ads es un fast-follow (no en v1). Brand Analytics / SQP llega más tarde. XOLT no es una herramienta de research ni de keywords."
+  },
+  "securitySection": {
+    "eyebrow": "Confianza",
+    "title": "APIs oficiales. Sin PII de compradores. Hosting en la UE en v1.",
+    "body": "XOLT se conecta solo con Amazon SP-API. Los tokens van cifrados. La IA ve hallazgos agregados, no pedidos en bruto ni datos de compradores.",
+    "items": {
+      "api": "APIs oficiales de Amazon con interruptor de corte — sin scraping.",
+      "pii": "Sin PII de compradores. Sin roles restringidos de SP-API.",
+      "kms": "Tokens cifrados con KMS. Hosting en la UE (Fráncfort) en v1.",
+      "rls": "Aislamiento de inquilinos con seguridad a nivel de fila.",
+      "ai": "La IA solo recibe hallazgos agregados."
+    }
+  },
+  "cta": {
+    "title": "Empieza con 14 días. Sin tarjeta.",
+    "body": "Conecta Seller Central, ve el beneficio por SKU y recibe un primer plan. Los precios de acceso anticipado son una hipótesis mientras los validamos.",
+    "primary": "Empezar prueba gratis",
+    "secondary": "Hablar con nosotros"
+  },
+  "pricing": {
+    "eyebrow": "Precios",
+    "title": "Planes simples. Una cuenta de Amazon es una región.",
+    "subtitle": "Prueba de 14 días. Sin tarjeta. Los precios son una hipótesis de trabajo y pueden cambiar.",
+    "accountNote": "Una cuenta de Amazon es una autorización de Seller Central en una región.",
+    "currencyNote": "USD es el precio de lista. AED y EUR se muestran como referencia.",
+    "trial": "Prueba de 14 días · sin tarjeta",
+    "cta": "Empezar prueba gratis",
+    "starter": {
+      "name": "Starter",
+      "blurb": "Para una sola autorización de Seller Central.",
+      "items": {
+        "a": "1 cuenta de Amazon",
+        "b": "Paneles",
+        "c": "Libro de trabajo mensual",
+        "d": "Plan de acción con IA"
+      }
+    },
+    "pro": {
+      "name": "Pro",
+      "blurb": "Para operadores de marca con varias cuentas.",
+      "items": {
+        "a": "3 cuentas de Amazon",
+        "b": "Exportaciones programadas a Sheets",
+        "c": "Datos de Ads (fast-follow)",
+        "d": "5 puestos"
+      }
+    },
+    "agency": {
+      "name": "Agency",
+      "blurb": "Para agencias con muchos clientes.",
+      "items": {
+        "a": "10 cuentas de Amazon",
+        "b": "Espacios de trabajo por cliente",
+        "c": "Marca blanca más adelante",
+        "d": "20 puestos"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Respuestas claras antes de conectar Amazon.",
+    "items": {
+      "access": {
+        "q": "¿Qué acceso a Amazon pide XOLT?",
+        "a": "Solo lectura a través de Amazon SP-API oficial con OAuth. No pedimos roles restringidos y no hacemos scraping de Seller Central."
+      },
+      "pii": {
+        "q": "¿Recogen datos personales de compradores?",
+        "a": "No. XOLT no recoge PII de compradores. La IA solo recibe hallazgos agregados, nunca pedidos en bruto ni datos de compradores."
+      },
+      "trial": {
+        "q": "¿Cómo funciona la prueba?",
+        "a": "14 días, sin tarjeta. Puedes desconectar Amazon en cualquier momento (interruptor de corte)."
+      },
+      "languages": {
+        "q": "¿Qué idiomas y divisas hay?",
+        "a": "Inglés, español y árabe desde el primer día. Divisas: AED, SAR, EGP, EUR, GBP, USD."
+      },
+      "v1": {
+        "q": "¿Qué no está en la v1?",
+        "a": "Sin escritura en listings, precios o pujas. Ads es un fast-follow. Brand Analytics / SQP llega más tarde. No somos una herramienta de keywords ni de research."
+      },
+      "agency": {
+        "q": "¿Pueden usarlo las agencias?",
+        "a": "Sí. El plan Agency incluye espacios por cliente y packs mensuales. La marca blanca está prevista más adelante."
+      }
+    }
+  },
+  "securityPage": {
+    "eyebrow": "Seguridad",
+    "title": "Cómo se protegen los datos del vendedor",
+    "intro": "Resumen público de controles — no es un runbook interno. No reivindicamos certificaciones que no hayamos obtenido.",
+    "contact": "Contacto de seguridad",
+    "apiTitle": "Solo APIs oficiales, con interruptor de corte",
+    "apiBody": "XOLT usa Amazon Selling Partner API con OAuth. No hacemos scraping de Seller Central. Puedes desconectar la integración (kill switch) y detener la importación.",
+    "piiTitle": "Sin PII de compradores, sin roles restringidos",
+    "piiBody": "No recogemos información personal de compradores. No solicitamos roles restringidos de SP-API.",
+    "kmsTitle": "Tokens cifrados y hosting en la UE",
+    "kmsBody": "Los tokens de Amazon se cifran con KMS. En v1, el hosting de la aplicación está en la UE (Fráncfort).",
+    "rlsTitle": "Aislamiento de inquilinos",
+    "rlsBody": "Los datos del vendedor se aíslan por inquilino con seguridad a nivel de fila (RLS).",
+    "aiTitle": "Qué ve la IA",
+    "aiBody": "El plan mensual se genera a partir de hallazgos agregados. El modelo no recibe pedidos en bruto ni datos de compradores.",
+    "links": "Relacionado: lista de subprocesadores y política de privacidad."
+  },
+  "subProcessorsPage": {
+    "eyebrow": "Proveedores",
+    "title": "Subprocesadores",
+    "intro": "Lista viva de proveedores que procesan datos para XOLT. Añadir un proveedor requiere aprobación del fundador y una actualización del sitio.",
+    "name": "Proveedor",
+    "purpose": "Finalidad",
+    "services": "Servicios",
+    "purposes": {
+      "hosting": "Hosting de la aplicación",
+      "database": "Base de datos gestionada",
+      "jobs": "Trabajos en segundo plano",
+      "aws": "Claves de cifrado y almacenamiento de objetos",
+      "ai": "Generación del plan de acción (hallazgos agregados)",
+      "google": "Exportación a Sheets e inicio de sesión",
+      "payments": "Pagos y facturación",
+      "email": "Correo transaccional",
+      "monitoring": "Monitorización de errores"
+    }
+  },
+  "contactPage": {
+    "eyebrow": "Empresa",
+    "title": "Authect, Dubái, EAU",
+    "purpose": "XOLT es el producto de analítica para vendedores de Amazon de Authect. Ayuda a vendedores y agencias a entender el beneficio por SKU y a recibir un plan mensual de qué cambiar.",
+    "support": "Soporte",
+    "privacy": "Privacidad",
+    "security": "Seguridad",
+    "billing": "Facturación",
+    "formTitle": "Enviar un mensaje",
+    "name": "Nombre",
+    "email": "Correo",
+    "topic": "Tema",
+    "message": "Mensaje",
+    "submit": "Enviar",
+    "success": "Mensaje recibido. Este formulario de demostración aún no envía correo.",
+    "error": "Revisa el formulario e inténtalo de nuevo.",
+    "topics": {
+      "support": "Soporte",
+      "privacy": "Privacidad",
+      "security": "Seguridad",
+      "billing": "Facturación"
+    }
+  },
+  "legal": {
+    "todo": "TODO: legal",
+    "privacyIntro": "El asesoramiento legal aún no ha entregado la política de privacidad. La estructura cubre datos de cuenta, datos de negocio del vendedor, subprocesadores, retención, derechos GDPR (acceso, exportación, eliminación), hosting en la UE y contacto vía privacy@.",
+    "termsIntro": "El asesoramiento legal aún no ha entregado los términos. Nombrarán la entidad Authect, uso aceptable, la responsabilidad del vendedor sobre su conexión de Amazon, descargo de IA (solo orientación, no asesoramiento profesional), limitación de responsabilidad y ley aplicable.",
+    "cookiesIntro": "El asesoramiento legal aún no ha entregado la política de cookies. Hasta entonces, las cookies esenciales hacen funcionar el sitio (idioma, consentimiento). El proveedor de analítica no está decidido.",
+    "privacyBanner": "Estructurado para una migración sencilla a MDX o CMS una vez que el asesor legal entregue la copia final.",
+    "termsBanner": "Regido por {company} ({city}, {country}). Contenido listo para migración a MDX/CMS.",
+    "sectionNotice": "{todo}: Las políticas detalladas sobre {topic} se proporcionarán aquí.",
+    "termsSectionNotice": "{todo}: Los términos detallados sobre {topic} se especificarán tras la revisión legal formal.",
+    "sections": {
+      "account": "Datos de cuenta de usuario",
+      "seller": "Datos de negocio del vendedor",
+      "processors": "Subprocesadores",
+      "retention": "Retención de datos",
+      "gdpr": "Derechos GDPR",
+      "hosting": "Hosting en la UE",
+      "contact": "Contacto",
+      "entity": "Entidad Authect",
+      "aup": "Uso aceptable",
+      "amazon": "Responsabilidad de la conexión de Amazon",
+      "ai": "Descargo de IA",
+      "liability": "Limitación de responsabilidad",
+      "law": "Ley aplicable",
+      "essential": "Cookies esenciales",
+      "analytics": "Analítica"
+    }
+  },
+  "agencies": {
+    "eyebrow": "Agencias",
+    "title": "Un espacio por cliente. Un pack mensual que sí pueden usar.",
+    "body": "Los gestores de cuenta necesitan informes de beneficio y acción listos para el cliente — no otro login que vigilar. XOLT separa los espacios y exporta el pack a Sheets, Excel, CSV o correo.",
+    "points": {
+      "workspaces": "Espacios multi-cliente en el plan Agency (10 cuentas de Amazon, 20 puestos).",
+      "packs": "Packs mensuales con beneficio por SKU, avisos de inventario y acciones recomendadas.",
+      "whitelabel": "La marca blanca está prevista más adelante — no se afirma como disponible en v1."
+    }
+  },
+  "markets": {
+    "eyebrow": "Mercados",
+    "title": "MENA, Europa y América — mismo producto, idioma y divisa locales.",
+    "uae": "EAU (Amazon.ae) — AED, árabe e inglés.",
+    "ksa": "Arabia Saudí (Amazon.sa) — SAR, árabe e inglés.",
+    "egypt": "Egipto (Amazon.eg) — EGP, árabe e inglés.",
+    "spain": "España y la UE — EUR, español e inglés.",
+    "us": "Estados Unidos — USD, inglés y español."
+  },
+  "cookies": {
+    "title": "Cookies",
+    "body": "Usamos cookies esenciales para el idioma y para recordar tu consentimiento. Aún no hay proveedor de analítica. Las cookies no esenciales no se ejecutarán sin consentimiento.",
+    "accept": "Aceptar",
+    "reject": "Solo esenciales",
+    "policy": "Política de cookies"
+  },
+  "auth": {
+    "signInTitle": "Iniciar sesión",
+    "signUpTitle": "Empieza tu prueba gratis",
+    "signInBody": "Marcador de posición de frontend. Aún no hay autenticación real.",
+    "signUpBody": "Prueba de 14 días, sin tarjeta. La conexión a Amazon usará OAuth oficial — nunca pedimos contraseñas de Seller Central.",
+    "email": "Correo",
+    "password": "Contraseña",
+    "submitSignIn": "Iniciar sesión",
+    "submitSignUp": "Crear cuenta",
+    "noAccount": "¿Aún no tienes cuenta?",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "demoNote": "Los formularios son solo locales en esta versión de marketing."
+  },
+  "notFound": {
+    "title": "Página no encontrada",
+    "body": "Esa URL no forma parte del sitio de marketing de XOLT."
+  }
+}

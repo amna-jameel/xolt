@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xolt.authect.com/sitemap.xml

@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "siteName": "XOLT",
+    "company": "Authect",
+    "homeTitle": "XOLT — SKU profit and a monthly action plan",
+    "homeDescription": "XOLT helps Amazon sellers and agencies in MENA, Europe, and America see real profit per SKU and get a monthly plan for what to change next — in English, Spanish, or Arabic.",
+    "featuresTitle": "Features — XOLT",
+    "featuresDescription": "Connect Seller Central, calculate SKU-level profit, watch inventory health, and receive a monthly AI action plan with money impact.",
+    "howTitle": "How XOLT works",
+    "howDescription": "Connect Amazon with official SP-API, backfill history, see SKU economics, and export a monthly plan to Sheets, Excel, or CSV.",
+    "pricingTitle": "Pricing — XOLT",
+    "pricingDescription": "Starter, Pro, and Agency plans. 14-day free trial, no credit card required.",
+    "securityTitle": "Security — XOLT",
+    "securityDescription": "Official Amazon APIs only, no buyer PII, encrypted tokens, EU hosting in Frankfurt, and a public sub-processor list.",
+    "subTitle": "Sub-processors — XOLT",
+    "subDescription": "The current list of vendors that process data for the XOLT service.",
+    "privacyTitle": "Privacy — XOLT",
+    "privacyDescription": "Privacy policy placeholder pending legal review.",
+    "termsTitle": "Terms — XOLT",
+    "termsDescription": "Terms of service placeholder pending legal review.",
+    "cookiesTitle": "Cookies — XOLT",
+    "cookiesDescription": "Cookie policy placeholder pending legal review.",
+    "contactTitle": "Contact — XOLT",
+    "contactDescription": "Authect, Dubai, UAE. Reach support, privacy, security, and billing.",
+    "agenciesTitle": "XOLT for agencies",
+    "agenciesDescription": "Multi-client workspaces and monthly client-ready profit packs for Amazon agencies.",
+    "faqTitle": "FAQ — XOLT",
+    "faqDescription": "Data access, PII, trial terms, languages, and what XOLT does not do in v1.",
+    "marketsTitle": "Markets — XOLT",
+    "marketsDescription": "Built for Amazon sellers in the UAE, KSA, Egypt, Spain, the EU, and the US.",
+    "signInTitle": "Sign in — XOLT",
+    "signUpTitle": "Start free trial — XOLT",
+    "ogAlt": "XOLT product preview showing SKU profitability"
+  },
+  "nav": {
+    "home": "Home",
+    "features": "Features",
+    "howItWorks": "How it works",
+    "pricing": "Pricing",
+    "security": "Security",
+    "faq": "FAQ",
+    "resources": "Resources",
+    "agencies": "For agencies",
+    "markets": "Markets",
+    "signIn": "Sign in",
+    "startTrial": "Start free trial",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language"
+  },
+  "footer": {
+    "tagline": "SKU-level profit and a monthly plan for Amazon sellers and agencies.",
+    "product": "Product",
+    "company": "Company",
+    "resources": "Resources",
+    "legal": "Legal",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "cookies": "Cookies",
+    "subProcessors": "Sub-processors",
+    "language": "Language",
+    "copyright": "© {year} Authect. XOLT is a product of Authect, Dubai, UAE."
+  },
+  "common": {
+    "startTrial": "Start free trial",
+    "connectAmazon": "Connect Amazon",
+    "seePricing": "See pricing",
+    "seeHowItWorks": "See how it works",
+    "seeSecurity": "Security page",
+    "seePrivacy": "Privacy",
+    "demoOnly": "Demo figures for illustration only. Not real Amazon account data.",
+    "beta": "Early access",
+    "usd": "USD",
+    "aed": "AED",
+    "eur": "EUR",
+    "perMonth": "/month",
+    "backToHome": "Back to home"
+  },
+  "hero": {
+    "eyebrow": "XOLT · Amazon seller analytics",
+    "headline": "See real profit per SKU. Know what to change next.",
+    "support": "A monthly profit and action report for Amazon sellers and agencies in MENA, Europe, and America — in your language, with money impact, delivered to your spreadsheet.",
+    "primary": "Start free trial",
+    "secondary": "See how it works",
+    "trialNote": "14-day free trial",
+    "noCard": "No credit card required",
+    "readOnlyApi": "Read-only SP-API"
+  },
+  "trust": {
+    "spApi": "Official Amazon SP-API",
+    "noScraping": "No scraping",
+    "noPii": "No buyer PII",
+    "languages": "English, Spanish, Arabic",
+    "currencies": "AED, SAR, EGP, EUR, GBP, USD",
+    "security": "Public security page"
+  },
+  "problem": {
+    "eyebrow": "The problem",
+    "title": "You have the data. You do not have the analyst.",
+    "body": "Seller Central shows revenue. Fees, COGS, ads (later), and inventory sit in other places. By the time you reconcile a SKU, the month is over — and the next decision is still a guess.",
+    "clickInstruction": "Hover or click a friction point to see its hidden business impact:",
+    "points": {
+      "revenue": "Revenue is not profit. Fees and landed cost change the ranking of every SKU.",
+      "inventory": "Overstock and stockout risk hide inside unit counts until cash is already stuck.",
+      "language": "Agencies and MENA operators need the same report in Arabic, Spanish, or English."
+    },
+    "impacts": {
+      "revenue": "Hidden Impact: -$4,800/mo uncaptured margin on top seller due to fee miscalculations.",
+      "inventory": "Hidden Impact: $18,500 cash frozen in 45-day overstock and unexpected storage penalties.",
+      "language": "Hidden Impact: 12+ hours/mo wasted manually translating and reformatting client workbooks."
+    }
+  },
+  "value": {
+    "eyebrow": "The outcome",
+    "title": "Understand real SKU-level profitability — then get a practical plan.",
+    "body": "XOLT is not another dashboard. It is a monthly profit and action report that says exactly what to change per product, in your language, and lands in Sheets, Excel, or CSV.",
+    "forWhom": "Built for owner-operators, brand ops leads, and agencies managing Seller Central accounts across AE, SA, EG, ES, the EU, and the US."
+  },
+  "comparison": {
+    "eyebrow": "Why XOLT is different",
+    "title": "Built for action, not another noisy dashboard",
+    "subtitle": "Most Amazon tools overwhelm you with raw charts or require full-time data analysts. XOLT delivers the final answer: what to change and the exact financial impact.",
+    "colFeature": "Capability",
+    "colXolt": "XOLT",
+    "colTraditional": "Legacy Dashboards (Helium 10, KwickMetrics)",
+    "colDataPipelines": "Data Connectors (Openbridge)",
+    "rows": {
+      "prescriptive": {
+        "title": "Prescriptive monthly plan per SKU",
+        "xolt": "Yes — exact steps with dollar/euro impact",
+        "traditional": "No — vanity charts and graphs only",
+        "data": "No — raw SQL tables only"
+      },
+      "languages": {
+        "title": "Arabic (RTL), Spanish & English native",
+        "xolt": "Yes — day-one complete localization",
+        "traditional": "English only or partial translation",
+        "data": "English only"
+      },
+      "deliverables": {
+        "title": "Automated delivery into your spreadsheet",
+        "xolt": "Yes — Google Sheets, Excel (.xlsx), CSV",
+        "traditional": "Walled inside their web app",
+        "data": "Requires BigQuery / Snowflake setup"
+      },
+      "security": {
+        "title": "Zero buyer PII & Read-only SP-API",
+        "xolt": "Yes — encrypted KMS, Frankfurt EU hosting",
+        "traditional": "Varies / often requests heavy roles",
+        "data": "Complex enterprise data storage"
+      },
+      "agency": {
+        "title": "Agency multi-client workspaces",
+        "xolt": "Yes — client workspaces and ready-made monthly packs",
+        "traditional": "Per-account add-ons",
+        "data": "Custom enterprise builds"
+      }
+    }
+  },
+  "preview": {
+    "title": "SKU economics, as you would see them in XOLT",
+    "sku": "SKU",
+    "product": "Product",
+    "market": "Market",
+    "revenue": "Revenue",
+    "fees": "Amazon fees",
+    "cogs": "COGS",
+    "profit": "Profit",
+    "margin": "Margin",
+    "inventory": "Inventory",
+    "action": "Recommended action",
+    "impact": "Est. impact",
+    "cover": "Days of cover"
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "From Seller Central to a monthly plan — without write-back.",
+    "subtitle": "Read-only access through official Amazon APIs. First value in about 15 minutes; roughly 12 months of history follows.",
+    "steps": {
+      "connect": {
+        "title": "Connect Seller Central",
+        "body": "OAuth to Amazon SP-API. No passwords stored. No scraping."
+      },
+      "backfill": {
+        "title": "Import and backfill",
+        "body": "Securely import about 12 months of history. First numbers appear in about 15 minutes."
+      },
+      "economics": {
+        "title": "Calculate SKU economics",
+        "body": "Revenue, Amazon fees, and your own COGS — so profit is real, not a vanity number."
+      },
+      "profit": {
+        "title": "Understand profitability",
+        "body": "See which SKUs actually make money after fees and cost, not just which ones sell."
+      },
+      "inventory": {
+        "title": "Spot inventory issues",
+        "body": "Days of cover, stockout risk, and overstock warnings before cash is trapped."
+      },
+      "plan": {
+        "title": "Receive the monthly AI plan",
+        "body": "A prescriptive list of what to change per item, with money impact."
+      },
+      "impact": {
+        "title": "See potential financial impact",
+        "body": "Each recommendation is tied to an estimated monthly dollar (or dirham/euro) effect."
+      },
+      "export": {
+        "title": "Export and share",
+        "body": "Google Sheets, Excel, CSV, and email delivery for operators and clients."
+      }
+    }
+  },
+  "features": {
+    "eyebrow": "Product",
+    "title": "The pieces of the monthly report",
+    "skuProfit": {
+      "title": "SKU-level profit",
+      "body": "Fees, your COGS, and revenue on one line. Ads data is a fast-follow, not in v1."
+    },
+    "inventory": {
+      "title": "Inventory health",
+      "body": "Days of cover plus stockout and overstock warnings, SKU by SKU."
+    },
+    "plan": {
+      "title": "Monthly AI action plan",
+      "body": "Prescriptive next steps with money impact per recommendation — not just charts."
+    },
+    "money": {
+      "title": "Money impact",
+      "body": "Every action is framed as estimated monthly effect so you can prioritize."
+    },
+    "backfill": {
+      "title": "Data backfill",
+      "body": "About 12 months of history so the first plan is not based on a thin week."
+    },
+    "markets": {
+      "title": "Multiple markets",
+      "body": "Built for AE, SA, EG, ES and other EU/US Seller Central regions."
+    },
+    "languages": {
+      "title": "Languages",
+      "body": "English, Spanish, and Arabic (RTL) from day one."
+    },
+    "currencies": {
+      "title": "Currencies",
+      "body": "AED, SAR, EGP, EUR, GBP, and USD."
+    },
+    "exports": {
+      "title": "Exports and email",
+      "body": "Google Sheets, Excel, CSV, plus email reporting for the monthly pack."
+    },
+    "limitsTitle": "Honest v1 limits",
+    "limitsBody": "No write-back to Amazon listings, prices, or bids. Ads integration is a fast-follow (not in v1). Brand Analytics / SQP data comes later. XOLT is not a product-research or keyword tool."
+  },
+  "securitySection": {
+    "eyebrow": "Trust",
+    "title": "Official APIs. No buyer PII. EU hosting for v1.",
+    "body": "XOLT connects with Amazon SP-API only. Tokens are encrypted. AI sees aggregated findings, not raw orders or buyer data.",
+    "items": {
+      "api": "Official Amazon APIs with a kill switch — no scraping.",
+      "pii": "No buyer PII collected. No restricted SP-API roles requested.",
+      "kms": "Tokens encrypted via KMS. EU hosting (Frankfurt) for v1.",
+      "rls": "Tenant isolation with row-level security.",
+      "ai": "AI receives aggregated findings only."
+    }
+  },
+  "cta": {
+    "title": "Start with 14 days. No credit card.",
+    "body": "Connect Seller Central, see SKU profit, and receive a first action plan. Early access pricing is a hypothesis while we validate plans with sellers.",
+    "primary": "Start free trial",
+    "secondary": "Talk to us"
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Simple plans. One Amazon account means one region.",
+    "subtitle": "14-day free trial. No credit card required. Prices are a working hypothesis and may change during early access.",
+    "accountNote": "An Amazon account is one Seller Central authorization in one region.",
+    "currencyNote": "USD is the list price. AED and EUR are shown alongside for reference.",
+    "trial": "14-day free trial · no card required",
+    "cta": "Start free trial",
+    "starter": {
+      "name": "Starter",
+      "blurb": "For a single Seller Central authorization.",
+      "items": {
+        "a": "1 Amazon account",
+        "b": "Dashboards",
+        "c": "Monthly workbook",
+        "d": "AI action plan"
+      }
+    },
+    "pro": {
+      "name": "Pro",
+      "blurb": "For multi-account brand operators.",
+      "items": {
+        "a": "3 Amazon accounts",
+        "b": "Scheduled Sheets exports",
+        "c": "Ads data (fast-follow)",
+        "d": "5 seats"
+      }
+    },
+    "agency": {
+      "name": "Agency",
+      "blurb": "For agencies running many clients.",
+      "items": {
+        "a": "10 Amazon accounts",
+        "b": "Client workspaces",
+        "c": "White-label later",
+        "d": "20 seats"
+      }
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Straight answers before you connect Amazon.",
+    "items": {
+      "access": {
+        "q": "What Amazon access does XOLT request?",
+        "a": "Read-only access through official Amazon SP-API via OAuth. We do not request restricted roles and we do not scrape Seller Central."
+      },
+      "pii": {
+        "q": "Do you collect buyer personal data?",
+        "a": "No. XOLT does not collect buyer PII. AI only receives aggregated findings, never raw orders or buyer data."
+      },
+      "trial": {
+        "q": "How does the trial work?",
+        "a": "14 days, no credit card required. You can disconnect Amazon at any time (kill switch)."
+      },
+      "languages": {
+        "q": "Which languages and currencies are supported?",
+        "a": "English, Spanish, and Arabic from day one. Currencies: AED, SAR, EGP, EUR, GBP, USD."
+      },
+      "v1": {
+        "q": "What is not in v1?",
+        "a": "No write-back to listings, prices, or bids. Ads integration is a fast-follow. Brand Analytics / SQP comes later. We are not a keyword or product-research tool."
+      },
+      "agency": {
+        "q": "Can agencies use XOLT?",
+        "a": "Yes. Agency plans include client workspaces and monthly client-ready packs. White-label is planned later."
+      }
+    }
+  },
+  "securityPage": {
+    "eyebrow": "Security",
+    "title": "How seller data is protected",
+    "intro": "This page is a public summary of controls — not an internal runbook. We do not claim certifications that we have not earned.",
+    "contact": "Security contact",
+    "apiTitle": "Official APIs only, with a kill switch",
+    "apiBody": "XOLT uses Amazon Selling Partner API with OAuth. We do not scrape Seller Central. You can disconnect the integration (kill switch) and stop data import.",
+    "piiTitle": "No buyer PII, no restricted roles",
+    "piiBody": "We do not collect buyer personal information. We do not request restricted SP-API roles.",
+    "kmsTitle": "Encrypted tokens and EU hosting",
+    "kmsBody": "Amazon tokens are encrypted via KMS. For v1, application hosting is in the EU (Frankfurt).",
+    "rlsTitle": "Tenant isolation",
+    "rlsBody": "Seller data is isolated per tenant using row-level security (RLS).",
+    "aiTitle": "What the AI sees",
+    "aiBody": "The monthly action plan is generated from aggregated findings. The model does not receive raw orders or buyer data.",
+    "links": "Related: sub-processors list and privacy policy."
+  },
+  "subProcessorsPage": {
+    "eyebrow": "Vendors",
+    "title": "Sub-processors",
+    "intro": "This living list names vendors that process data for XOLT. Adding a vendor requires founder approval and a site update.",
+    "name": "Provider",
+    "purpose": "Purpose",
+    "services": "Services",
+    "purposes": {
+      "hosting": "Application hosting",
+      "database": "Managed database",
+      "jobs": "Background jobs",
+      "aws": "Encryption keys and object storage",
+      "ai": "AI action-plan generation (aggregated findings)",
+      "google": "Sheets export and sign-in",
+      "payments": "Payments and billing",
+      "email": "Transactional email",
+      "monitoring": "Error monitoring"
+    }
+  },
+  "contactPage": {
+    "eyebrow": "Company",
+    "title": "Authect, Dubai, UAE",
+    "purpose": "XOLT is Authect’s Amazon seller analytics product. It helps sellers and agencies understand SKU-level profit and receive a monthly plan for what to change next.",
+    "support": "Support",
+    "privacy": "Privacy",
+    "security": "Security",
+    "billing": "Billing",
+    "formTitle": "Send a message",
+    "name": "Name",
+    "email": "Email",
+    "topic": "Topic",
+    "message": "Message",
+    "submit": "Send",
+    "success": "Message received. This demo form does not send email yet.",
+    "error": "Please check the form and try again.",
+    "topics": {
+      "support": "Support",
+      "privacy": "Privacy",
+      "security": "Security",
+      "billing": "Billing"
+    }
+  },
+  "legal": {
+    "todo": "TODO: legal",
+    "privacyIntro": "Counsel has not delivered the privacy policy. Structure is in place for account data, seller business data, sub-processors, retention, GDPR rights (access, export, delete), EU hosting, and contact via privacy@.",
+    "termsIntro": "Counsel has not delivered the terms of service. The final terms will name the Authect entity, acceptable use, the seller’s responsibility for their Amazon connection, an AI disclaimer (advisory only, not professional advice), limitation of liability, and governing law.",
+    "cookiesIntro": "Counsel has not delivered the cookie policy. Until then, essential cookies keep the site working (locale, consent choice). Analytics vendor is not decided.",
+    "privacyBanner": "Structured for easy migration to MDX or CMS once final copy is delivered by legal counsel.",
+    "termsBanner": "Governed under {company} ({city}, {country}). Content ready for MDX/CMS migration.",
+    "sectionNotice": "{todo}: Detailed policy covering {topic} will be provided here.",
+    "termsSectionNotice": "{todo}: Detailed terms regarding {topic} will be specified upon formal counsel review.",
+    "sections": {
+      "account": "User account data",
+      "seller": "Seller business data",
+      "processors": "Sub-processors",
+      "retention": "Data retention",
+      "gdpr": "GDPR rights",
+      "hosting": "EU hosting",
+      "contact": "Contact",
+      "entity": "Authect entity",
+      "aup": "Acceptable use",
+      "amazon": "Amazon connection responsibility",
+      "ai": "AI disclaimer",
+      "liability": "Limitation of liability",
+      "law": "Governing law",
+      "essential": "Essential cookies",
+      "analytics": "Analytics"
+    }
+  },
+  "agencies": {
+    "eyebrow": "Agencies",
+    "title": "One workspace per client. One monthly pack they can actually use.",
+    "body": "Agency account managers need client-ready profit and action reports — not another login to babysit. XOLT keeps workspaces separate and exports the monthly pack to Sheets, Excel, CSV, or email.",
+    "points": {
+      "workspaces": "Multi-client workspaces on the Agency plan (10 Amazon accounts, 20 seats).",
+      "packs": "Monthly client packs with SKU profit, inventory warnings, and recommended actions.",
+      "whitelabel": "White-label is planned later — not claimed as available in v1."
+    }
+  },
+  "markets": {
+    "eyebrow": "Markets",
+    "title": "MENA, Europe, and America — same product, local language and currency.",
+    "uae": "UAE (Amazon.ae) — AED, Arabic and English.",
+    "ksa": "KSA (Amazon.sa) — SAR, Arabic and English.",
+    "egypt": "Egypt (Amazon.eg) — EGP, Arabic and English.",
+    "spain": "Spain and the EU — EUR, Spanish and English.",
+    "us": "United States — USD, English and Spanish."
+  },
+  "cookies": {
+    "title": "Cookies",
+    "body": "We use essential cookies for locale and to remember your consent. An analytics vendor has not been chosen. Non-essential cookies will not run without consent.",
+    "accept": "Accept",
+    "reject": "Essential only",
+    "policy": "Cookie policy"
+  },
+  "auth": {
+    "signInTitle": "Sign in",
+    "signUpTitle": "Start your free trial",
+    "signInBody": "This is a frontend placeholder. There is no live authentication yet.",
+    "signUpBody": "14-day trial, no credit card. Connecting Amazon will use official OAuth — we never ask for Seller Central passwords.",
+    "email": "Email",
+    "password": "Password",
+    "submitSignIn": "Sign in",
+    "submitSignUp": "Create account",
+    "noAccount": "No account yet?",
+    "hasAccount": "Already have an account?",
+    "demoNote": "Forms are local-only for this marketing build."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "That URL is not part of the XOLT marketing site."
+  }
+}
